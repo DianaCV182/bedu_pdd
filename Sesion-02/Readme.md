@@ -77,7 +77,7 @@ Las funciones nos pueden ayudar a quitarle complejidad a nuestro programa y hace
 
 Así se ve una función:
 
-```
+```python
 def soy_una_funcion(soy_un_parametro):
     nueva_variable = soy_un_proceso
     
