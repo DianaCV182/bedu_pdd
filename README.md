@@ -21,8 +21,9 @@ El módulo de __Procesamiento de Datos con Python__ tiene como principal objetiv
 
 *13 de marzo al 17 de abril de 2021*
 
-Fecha | Sesión | Tema                                                          | 
-------| :----: | :------------------------------------------------------------ | 
-13/03 | 1      | [Fundamentos de Python](Sesion-01/Readme.md)                  |
-13/03 | 2      | [Estructuras de Datos y Funciones](Sesion-02/Readme.md)       | 
+Fecha | Sesión | Tema                                                               | 
+------| :----: | :----------------------------------------------------------------- | 
+13/03 | 1      | [Fundamentos de Python](Sesion-01/Readme.md)                       |
+13/03 | 2      | [Estructuras de Datos y Funciones](Sesion-02/Readme.md)            |
+20/03 | 3      | [Programación Funcional y Operadores Lógicos](Sesion-03/Readme.md) |
 
