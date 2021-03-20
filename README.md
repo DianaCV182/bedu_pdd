@@ -26,4 +26,4 @@ Fecha | Sesión | Tema                                                          
 13/03 | 1      | [Fundamentos de Python](Sesion-01/Readme.md)                       |
 13/03 | 2      | [Estructuras de Datos y Funciones](Sesion-02/Readme.md)            |
 20/03 | 3      | [Programación Funcional y Operadores Lógicos](Sesion-03/Readme.md) |
-
+20/03 | 4      | [Pandas y Análisis Exploratorio de Datos](Sesion-04/Readme.md) |
