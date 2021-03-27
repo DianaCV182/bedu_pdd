@@ -16,6 +16,9 @@ El módulo de __Procesamiento de Datos con Python__ tiene como principal objetiv
 
 ### Material adicional :books:
 
+- :link: [Tipos de notación para identificadores](https://www.neoguias.com/tipos-notacion-nombres/)
+- :link: [Python String Formatting Best Practices](https://realpython.com/python-string-formatting/)
+- :link: [Problema del año del año 2038](https://es.wikipedia.org/wiki/Problema_del_a%C3%B1o_2038#:~:text=La%20mayor%C3%ADa%20de%20sistemas%20operativos,%2C9%20%C3%97%201011)
 
 ### Agenda :date:
 
@@ -26,4 +29,5 @@ Fecha | Sesión | Tema                                                          
 13/03 | 1      | [Fundamentos de Python](Sesion-01/Readme.md)                       |
 13/03 | 2      | [Estructuras de Datos y Funciones](Sesion-02/Readme.md)            |
 20/03 | 3      | [Programación Funcional y Operadores Lógicos](Sesion-03/Readme.md) |
-20/03 | 4      | [Pandas y Análisis Exploratorio de Datos](Sesion-04/Readme.md) |
+20/03 | 4      | [Pandas y Análisis Exploratorio de Datos](Sesion-04/Readme.md)     |
+27/03 | 5      | [Funciones vectorizadas y limpieza de datos](Sesion-05/Readme.md)  |
