@@ -31,3 +31,4 @@ Fecha | Sesión | Tema                                                          
 20/03 | 3      | [Programación Funcional y Operadores Lógicos](Sesion-03/Readme.md) |
 20/03 | 4      | [Pandas y Análisis Exploratorio de Datos](Sesion-04/Readme.md)     |
 27/03 | 5      | [Funciones vectorizadas y limpieza de datos](Sesion-05/Readme.md)  |
+27/03 | 6      | [APIs, automatización y concatenación de DataFrames](Sesion-06/Readme.md) |

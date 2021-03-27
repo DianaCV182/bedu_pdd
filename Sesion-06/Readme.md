@@ -1,5 +1,8 @@
+[`Procesamiento de Datos con Python`](../README.md) > `Sesión 6`
 
 ## Sesión 06: APIs, automatización y concatenación de DataFrames
+
+<img src="../imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
 
 ### 1. Objetivos
 
@@ -14,7 +17,7 @@
 
 ---
 
-<ins>Introducción</ins>
+#### <ins>Introducción</ins>
 
 Hoy vamos a aprender a adquirir datos de una manera que difiere mucho de las que hemos visto hasta ahora. No vamos a obtener los datos directamente de un archivo que descargamos o que obtenemos directamente de alguien más, sino que vamos a usar una API para obtener nuestros datos programáticamente y convertirlos en un `DataFrame` que podamos utilizar.
 
@@ -22,7 +25,7 @@ En el proceso no sólo veremos APIs sino que también aprenderemos a automatizar
 
 ---
 
-<ins>APIs</ins>
+#### <ins>APIs</ins>
 
 En el Prework vimos una descripción detallada de lo que son las APIs y cómo funcionan. Vimos que para hacer una petición a una API, tenemos que tomar en cuenta las siguientes cosas:
 
@@ -38,11 +41,11 @@ Veamos esto en acción.
 
 ---
 
-<ins>Librería Request</ins>
+#### <ins>Biblioteca Request</ins>
 
-Vamos a usar la librería Request para realizar nuestras peticiones en Python. Primero que nada, tenemos que instalarla usando:
+Vamos a usar la biblioteca Request para realizar nuestras peticiones en Python. Primero que nada, tenemos que instalarla usando:
 
-`!pip install requests`
+`pip install requests`
 
 Ahora vamos a ver cómo usarla.
 
@@ -53,7 +56,7 @@ Ahora vamos a ver cómo usarla.
 
 ---
 
-<ins>Automatización con `for loops`</ins>
+#### <ins>Automatización con `for loops`</ins>
 
 Podemos usar `for loops` para automatizar la realización de múltiples peticiones a distintos URLs. Primero que nada, vamos a ver cómo es que funcionan los `for loops`. Un `for loop` se ve así:
 
@@ -66,7 +69,7 @@ Podemos usar `for loops` para automatizar la realización de múltiples peticion
 
 ---
 
-<ins>Protegiendo nuestro programa con `try except`</ins>
+#### <ins>Protegiendo nuestro programa con `try except`</ins>
 
 Cuando automatizamos cosas, no queremos tener que estar revisando todo el proceso continuamente. Si tuviéramos que hacer eso, el proceso no estaría muy automatizado que digamos. Durante la ejecución de nuestro programa pueden suceder errores que hagan que nuestro programa deje de correr.
 
@@ -81,7 +84,7 @@ Para evitar que estos errores detengan nuestro programa, podemos usar estructura
 
 ---
 
-<ins>Concatenación de `Series`</ins>
+#### <ins>Concatenación de `Series`</ins>
 
 Cuando obtenemos nuestros datos en "cachitos", como cuando hacemos peticiones a una API, necesitamos luego unir todos nuestros datos en un solo `DataFrame`. Para eso podemos usar la función `pd.concat` de `pandas`. Primero vamos a aprender los principios básicos usando `Series`, para luego poder aplicar esos mismos principios a los `DataFrames`.
 
@@ -93,7 +96,7 @@ Cuando obtenemos nuestros datos en "cachitos", como cuando hacemos peticiones a 
 
 ---
 
-<ins>Concatenación de `DataFrames`</ins>
+#### <ins>Concatenación de `DataFrames`</ins>
 
 Los mismos principios de concatenación aplican tanto a `Series` como a `DataFrames`. Vamos a verlos en acción y realizar una práctica para que nos quede todo súper claro.
 
@@ -106,7 +109,7 @@ Los mismos principios de concatenación aplican tanto a `Series` como a `DataFra
 
 ---
 
-<ins>Uniendo todo</ins>
+#### <ins>Uniendo todo</ins>
 
 Ahora sí, ha llegado el momento de la verdad. Vamos a usar `for loops`, `try except` y concatenaciones para automatizar las peticiones a nuestra API.
 
@@ -118,7 +121,9 @@ Ahora sí, ha llegado el momento de la verdad. Vamos a usar `for loops`, `try ex
 [**`Reto 5`**](Reto-05/automatizando_peticiones.ipynb)
 
 ---
-
-### 3. Postwork
+ 
+### 3. Postwork :memo:
 
 [**`Postwork Sesión 6`**](Postwork/Readme.md)
+
+[`Anterior`](../Sesion-05/Readme.md) | [`Siguiente`](../Sesion-07/Readme.md)
