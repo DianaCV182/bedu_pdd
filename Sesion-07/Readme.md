@@ -1,7 +1,10 @@
+[`Procesamiento de Datos con Python`](../README.md) > `Sesión 7`
 
 ## Sesión 07: Transformación, filtración y ordenamiento de datos
 
-### 1. Objetivos
+<img src="../imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
+
+### 1. Objetivos :dart:
 
 - Hacer casting de tipos de datos.
 - Manipular strings usando el módulo `str`.
@@ -9,11 +12,11 @@
 - Aplicar filtros a nuestros datos.
 - Ordenar nuestro dataset por columnas.
 
-### 2. Contenido
+### 2. Contenido :blue_book:
 
 ---
 
-<ins>Introducción</ins>
+#### <ins>Introducción</ins>
 
 Hoy aprenderemos algunas técnicas para realizar transformación y reestructuración de datos.
 
@@ -25,7 +28,7 @@ La transformación es muy útil para limpiar nuestro dataset y para dejarlo prep
 
 ---
 
-<ins>Casting</ins>
+#### <ins>Casting</ins>
 
 El primer tipo de transformación que veremos es el `casting`. `Casting` significa convertir un dato de un tipo de dato a otro tipo de dato. O sea, convertir una `string` a un `int`, un `int` a un `float`, un `int` a un `datetime`, etc.
 
@@ -40,7 +43,7 @@ Veremos algunas técnicas parar hacer `casting` manualmente en los casos en los 
 
 ---
 
-<ins>Manipulación de `strings`</ins>
+### <ins>Manipulación de `strings`</ins>
 
 Manipular `strings` es todo un tema por sí mismo. Aprender a usar las herramientas de manipulación de `strings` es muy importante puesto que nos permite trabajar con datos no estructurados. Los datos no estructurados son básicamente secuencias de caracteres tipo texto.
 
@@ -55,7 +58,7 @@ Para eso tenemos la propiedad `str` que estudiaremos a continuación.
 
 ---
 
-<ins>`map`</ins>
+#### <ins>`map`</ins>
 
 Otra cosa que podemos hacer es usar un mapeo de un dato a otro. Esto significa que le damos a `pandas` algún objeto que contenga una correspondencia entre un dato y otro para que realice una conversión.
 
@@ -70,7 +73,7 @@ Veámoslo en acción.
 
 ---
 
-<ins>`apply`</ins>
+#### <ins>`apply`</ins>
 
 Otra manera de crear correspondencias es aplicando una función a nuestro `DataFrame` o `Serie` usando `apply`.
 
@@ -85,7 +88,7 @@ En `DataFrames` podemos usar este mismo método para aplicar funciones por filas
 
 ---
 
-<ins>Filtros</ins>
+#### <ins>Filtros</ins>
 
 Los filtros nos sirven para obtener subconjuntos de datos que tengan una cierta característica que necesitamos. Podemos "filtrar" solamente los datos que deseamos y dejar fuera datos indeseables.
 
@@ -100,7 +103,7 @@ Crear subconjuntos a partir de nuestro conjunto de datos es muy útil para enten
 
 ---
 
-<ins>`sort`</ins>
+#### <ins>`sort`</ins>
 
 También podemos reordenar nuestros datos usando el método `sort_values`. Reordenamos nuestro conjunto de datos tomando en cuenta el valor que cada fila tenga en una columna dada. Podemos ordenarlos ascendente o descentemente.
 
@@ -113,6 +116,8 @@ Reordenar nuestros datos puede ayudarnos a entender mejor la distribución de nu
 
 ---
 
-### 3. Postwork
+### 3. Postwork :memo:
 
 [**`Postwork Sesión 7`**](Postwork/Readme.md)
+
+[`Anterior`](../Sesion-06/Readme.md) | [`Siguiente`](../Sesion-08/Readme.md)

@@ -4,7 +4,7 @@
 
 <img src="../imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
 
-### 1. Objetivos
+### 1. Objetivos :dart:
 
 - Hacer peticiones a APIs.
 - Automatizar peticiones a APIs utilizando For loops y Excepciones. 
@@ -13,7 +13,7 @@
 - Usar concat para unir múltiples `DataFrames`.
 - Guardar datasets localmente en formato .csv.
 
-### 2. Contenido
+### 2. Contenido :blue_book:
 
 ---
 

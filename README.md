@@ -33,3 +33,4 @@ Fecha | Sesión | Tema                                                          
 27/03 | 5      | [Funciones vectorizadas y limpieza de datos](Sesion-05/Readme.md)  |
 27/03 | 6      | [APIs, automatización y concatenación de DataFrames](Sesion-06/Readme.md) |
 10/04 | 7      | [Transformación, filtración y ordenamiento de datos](Sesion-07/Readme.md) |
+10/04 | 8      | [Bases de datos, merge y agrupaciones](Sesion-08/Readme.md)

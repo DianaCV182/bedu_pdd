@@ -1,7 +1,10 @@
+[`Procesamiento de Datos con Python`](../README.md) > `Sesión 8`
 
 ## Sesión 08: Bases de datos, merge y agrupaciones
 
-### 1. Objetivos
+<img src="../imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
+
+### 1. Objetivos :dart:
 
 - Conectarse a una base de datos MySQL usando Python.
 - Obtener datos de un SGBD y convertir esos datos a `DataFrames`.
@@ -9,11 +12,11 @@
 - Segmentar nuestros `DataFrames` usando `groupby`.
 - Aplicar agregaciones y funciones a nuestros grupos.
 
-### 2. Contenido
+### 2. Contenido :blue_book:
 
 ---
 
-<ins>Introducción</ins>
+#### <ins>Introducción</ins>
 
 Bienvenido a la última sesión de este módulo. El día de hoy cerraremos con 3 temas que son esenciales para redondear tu educación como procesador de datos:
 
@@ -25,13 +28,13 @@ Bienvenido a la última sesión de este módulo. El día de hoy cerraremos con 3
 
 ---
 
-<ins>Bases de Datos</ins>
+#### <ins>Bases de Datos</ins>
 
-Como vimos en el Prework, los sistemas de gestión de bases de datos (como MySQL, PostgreSQL, MariaDB, MongoDB, etc) son una gran manera de almacenar grandes (o pequeñas) cantidades de datos y compartirlas con muchas personas.
+Como vimos en el primer módulo, los sistemas de gestión de bases de datos (como MySQL, PostgreSQL, MariaDB, MongoDB, etc) son una buena manera de almacenar grandes (o pequeñas) cantidades de datos y compartirlas con muchas personas.
 
-Normalmente, estas bases de datos van a estar almacenadas en algún servidor al que todos los integrantes de tu equipo van a tener acceso. Vamos a conectarnos a una base de datos remota usando la librería `mysql-connector`.
+Normalmente, estas bases de datos van a estar almacenadas en algún servidor al que todos los integrantes de tu equipo van a tener acceso. Vamos a conectarnos a una base de datos remota usando la biblioteca `mysql-connector`.
 
-Antes que nada, si no lo has hecho ya, instala la librería desde Google Colab:
+Antes que nada, si no lo has hecho ya, instala la biblioteca desde Google Colab:
 
 `!pip install mysql-connector-python`
 
@@ -42,7 +45,7 @@ Antes que nada, si no lo has hecho ya, instala la librería desde Google Colab:
 
 ---
 
-<ins>Tablas a `DataFrames`</ins>
+#### <ins>Tablas a `DataFrames`</ins>
 
 Ya que hemos realizado nuestra conexión, vamos a hacer unas consultas a nuestra base de datos para construir algunos `DataFrames` a partir de las tablas que existen en la base `movielens`.
 
@@ -57,7 +60,7 @@ Aunque ésta no es una solución apta para **todos** los casos (en el mundo de l
 
 ---
 
-<ins>`merge`</ins>
+#### <ins>`merge`</ins>
 
 Ok, ahora tenemos una base de datos que consiste de 5 tablas distintas. Dentro de cada una de esas tablas, tenemos información relevante que se relaciona con otras tablas a través de lo que llamamos 'llaves foráneas' ('foreign keys'). Esto quiere decir que si en una tabla tenemos una columna `user_id` y en otra tabla también tenemos la columna `user_id`, podemos usar ambas columnas para relacionar ambas tablas y construir una nueva tabla que contenga la información de las dos tablas originales.
 
@@ -70,7 +73,7 @@ Usando este proceso, podemos unir `DataFrames` y completar información relevant
 
 ---
 
-<ins>`groupby`</ins>
+#### <ins>`groupby`</ins>
 
 Ya sabemos unir `DataFrames` usando `concat` y `merge`, pero ¿qué pasa cuando lo que queremos es segmentar nuestro `DataFrame`? A veces en vez de unir todos los datos en la misma estructura lo que queremos es dividirlos para facilitar su comprensión, análisis y visualización.
 
@@ -90,6 +93,8 @@ Ahora sí viene lo bueno. Los siguientes 3 Retos serán exploraciones mucho más
 
 ---
 
-### 3. Postwork
+### 3. Postwork :memo:
 
 [**`Postwork Sesión 8`**](Postwork/Readme.md)
+
+[`Anterior`](../Sesion-06/Readme.md) | [`Siguiente`](../Sesion-08/Readme.md)
